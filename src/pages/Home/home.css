@@ -1,0 +1,70 @@
+.conteiner-all {
+    background-color: yellow;
+    max-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-block: 8px;
+}
+
+.div-input {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+label {
+    font-size: x-large;
+    font-family: 'Courier New';
+}
+input{
+    width: 15%;
+    height: 30%;
+    outline: none;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.div-all {
+    width: 100%; 
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 10px;
+
+}
+
+.div-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 4px 2px 1px grey;
+    padding: 10px;
+}
+
+.name-personaje {
+    text-align: center;
+    color: rgb(0, 183, 255);
+}
+
+.img-character {
+    width: 40%;
+}
+
+.text-character {
+    width: 100%;
+    text-align: center;
+}
