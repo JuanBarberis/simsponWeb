@@ -19,6 +19,9 @@ function Home() {
         }
     }
 
+
+    
+
     const handleInputChange = (e) => {
         setInputValue(e.target.value);
     };
@@ -31,9 +34,9 @@ function Home() {
     useEffect(() => {
 
         fetchData()
+  
 
     }, [])
-    console.log(filteredCharacters.length)
     return (
         <div className='conteiner-all'>
             <div className='div-input'>
@@ -57,7 +60,7 @@ function Home() {
                                 <div key={index} className='div-box'>
                                     <h1 className='name-personaje'>{item.character}</h1>
                                     <img src={item.image} className='img-character' alt={item.character} />
-                                    {/* <p className='text-character'>{item.quote}</p> */}
+                                    <p className='text-character'>{item.quote}</p>
                                 </div>
                             )
                         })
